@@ -2,7 +2,6 @@ import { StyleSheet, Text, View, Button, Dimensions } from 'react-native'
 import React from 'react'
 import { useRoute } from '@react-navigation/native'
 const DetailScreen = () => {
-    const route = useRoute();
     const windowWidth = Dimensions.get('window').width;
   return (
     <View style={styles.container}>
@@ -33,7 +32,7 @@ const styles = StyleSheet.create({
       padding: 20,
     },
     buttonContainer: {
-      flex: 1, // Để nút chiếm toàn bộ chiều cao của View
-      marginHorizontal: 5, // Khoảng cách giữa các nút
+      flex: 1, 
+      marginHorizontal: 5, 
     },
   });

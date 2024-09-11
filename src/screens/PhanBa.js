@@ -1,5 +1,6 @@
 import { StyleSheet, Text, View, Button, Dimensions } from 'react-native'
 import React, { useState, useEffect } from 'react';
+import color from '../../contains/color';
 
 const PhanBa = () => {
     const [isPortrait, setIsPortrait] = useState(true);
@@ -37,6 +38,7 @@ const PhanBa = () => {
     },
     buttonContainer: {
       width: '100%',
+
     },
     row: {
       flexDirection: 'row',
